@@ -1,0 +1,194 @@
+/* register button styling */
+.REGISTER{
+    float:right;
+    top:70px;
+    left:1320px;
+    position: absolute;
+   border:none;
+   background-color:red;
+   font-family: 'Times New Roman', Times, serif;
+   width:150px;
+   height: 40px;
+   font-size:25px;
+   color:white;
+   font-weight: 100px;
+   cursor: pointer;
+   border-radius:10px;
+}
+/* register fixed styling */
+#fixed_heading{
+    position: fixed;
+    top:0%;
+    z-index: 10;
+    width: 98%;
+}
+.heading{
+    color:gold;
+    box-sizing: border-box;
+    width: 98%;
+    min-height: 120px;
+    background-color: midnightblue;
+    border-bottom: 5px black;
+    margin:0;
+}
+/* left box stying */
+.left-box{
+ top:150px;
+ left:800px;
+position: absolute;
+border:none;
+width:100%;
+height:550px;
+background-image:url("ray.jpeg");
+background-size:cover;
+background-position:center;
+margin:5% auto;
+padding:7px;
+border-radius:15px;
+box-shadow:8px 10px 9px black;
+
+}
+/* OR STYLING */
+.or{
+    top:460px;
+    left:769px;
+    position:absolute;
+    box-sizing:border-box;
+    width:70px;
+    height: 70px;
+    font-size:  40px;
+    text-align:left;
+    background-color:darkturquoise;
+    border:none;
+    padding:10px;
+    border-radius: 7px;
+    box-shadow:2px 3px 10px rgba(236, 8, 8, 0.1);
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+
+    
+}
+/* or text styling */
+.or_text{
+    font-size: 45px;
+    font-family: fantasy;
+    font-weight: bold;
+    position:fixed;
+    left:777px;
+    top:420px;
+    align-items: center;
+    
+}
+
+
+/* begining of sign up with socia medias */
+.facebook{
+    background-color: blue;
+    border:none;
+    width: 300px;
+    height: 50px;
+    color:white;
+    font-size: 20px;
+    font-weight:bolder;
+    cursor: pointer;
+    font-family: 'Courier New', Courier,'Times New Roman', Times, serif;
+}
+ .twitter{
+    background-color:rgb(35, 41, 99);
+    border:none;
+    width: 300px;
+    height: 50px;
+    color:white;
+    font-size: 20px;
+    font-weight:bolder;
+    cursor: pointer;
+    font-family: 'Courier New', Courier,'Times New Roman', Times, serif;
+}
+.google{
+    background-color: red;
+    border:none;
+    width: 300px;
+    height: 50px;
+    color:white;
+    font-size: 20px;
+    font-weight:bolder;
+    cursor: pointer;
+    font-family: 'Courier New', Courier,'Times New Roman', Times, serif;
+}
+/* end of social media styling */
+body{
+    background-image:url("kitchen.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    font-weight:15px;  
+    width:98%; 
+}
+.SIGN-IN-WITH{
+    font-size: 30px;
+    font-weight: 200px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    border-bottom:5px solid red;
+}
+.login-box{
+margin:5% auto;
+min-height:550px;
+width:98%;
+background:none;
+box-shadow:5px 9px 13px black;
+box-sizing: border-box;
+text-align:center;
+background-image:url("hacker.jpg");
+   background-repeat: no-repeat;
+   background-size:cover;
+border-radius:10px;
+margin-left:20px;
+
+}
+input[type="text"],input[type="password"],input[type="email"]{
+background-color: none;
+color:black;
+padding: 15px;
+margin:10px;
+font-size:20px;
+font-weight:10px;
+margin-bottom: 10px;
+padding-bottom: 15px;
+border-radius: 15px;
+outline: blue;
+border: none;
+box-sizing: border-box;
+border-bottom:5px solid red;
+font-weight: 400px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+width:350px;
+height:75px;
+display: -webkit-box;
+margin-bottom: 20px;
+outline:none;
+cursor: pointer;
+
+
+}
+input[type="submit"],input[type="reset"]{
+background-color:red;
+color:white;
+font-weight: bolder;
+padding: 15px;
+margin:10px;
+font-size:20px;
+font-weight:10px;
+margin-bottom: 10px;
+padding-bottom: 10px;
+border-radius: 10px;
+float:center;
+border-radius:5px;
+width: 200px;
+outline-style: none;
+margin:20px;
+border:none;
+font-weight: 500px;
+cursor: pointer;
+
+}

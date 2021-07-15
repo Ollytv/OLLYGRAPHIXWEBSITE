@@ -1,0 +1,233 @@
+<html>
+<head>
+<meta char="UTF-8">
+<html lang="en-US">
+<title>LOGIN FORM</title>
+<link rel="stylesheet">
+</head>
+<body>
+    <div class="heading">
+    <h1>WELCOME USER!</h1>
+    <h2>SIGN IN YOUR CREDENTIALS</h2>
+<div id="REGISTER"><button class="social register">REGISTER</button></div>
+</div>
+    <center>
+        <div class="login-box">
+<form method="post"action="DAN TV.html"onsubmit="returnValidationForm();"><br><br>
+<input type="text"id="UserName"placeholder="Username"name="UserName"required/><br><br>
+<input type="email"id="email"placeholder="Email"name="email"required/><br><br>
+<input type="password"id="Password"placeholder="Password"required/><br><br>
+<input type="submit"value="LOG-IN"id="submit"onsubmit="returnValidationForm();">
+<input type="reset"onsubmit="returnValidationForm();">
+</form>
+</div>
+</center>
+<script type="text/javascript">
+function ValidateForm(){
+var UserName=document.getElementByld("UserName").value;
+var email=document.getElementByld("email").value;
+var password=document.getElementByld("password").value;
+  if(UserName==" "|| email==" "|| password==" "){
+      alert("ALL FIELD REQUIRED");
+      return false;
+  }
+      else{
+          return true;
+      }
+  }
+  
+</script>
+<center>
+<div class="left-box">
+    <span class="SIGN-IN-WITH">SIGN-IN-WITH</span><br><br><br><br>
+    <button class="social facebook">LOG IN WITH FACEBOOK</button><br><br><br><br><br>
+    <button class="social TWITTER">LOG IN WITH TWITTER</button><br><br><br><br><br><br>
+    <button class="social google">LOG IN WITH GOOGLE++</button><br><br><br><br>
+</div>
+</center>
+    <div class="or">OR</div>
+</body>
+<style>
+    .REGISTER{
+        float:right;
+        top:70px;
+        left:1190px;
+        position: absolute;
+       border:none;
+      background-color:red;
+       font-family: 'Times New Roman', Times, serif;
+       width:150px;
+       height: 40px;
+       font-size:25px;
+       color:white;
+       font-weight: 100px;
+       cursor: pointer;
+       border-radius:10px;
+    }
+    
+    .left-box{
+     top:150px;
+     left:720px;
+    position: absolute;
+    border:none;
+    width:450px;
+    height:550px;
+    background-color:goldenrod;
+    background-size:cover;
+    background-position:center;
+    margin:5% auto;
+    border-radius:15px;
+    box-shadow:8px 10px 9px black;
+
+
+    }
+    .or{
+        top:450px;
+        left:670px;
+        position:absolute;
+        box-sizing:border-box;
+        width:80px;
+        height: 70px;
+        font-size:  40px;
+        text-align:left;
+        background-color: rgb(240, 230, 140);
+        border:none;
+        padding:10px;
+        border-radius: 25px;
+        box-shadow:2px 3px 10px rgba(236, 8, 8, 0.1);
+        font-family:'Times New Roman', Times, serif;
+        color: indigo;
+
+        
+    }
+    .facebook{
+        background-color: blue;
+        border:none;
+        width: 300px;
+        height: 50px;
+        color:white;
+        font-size: 20px;
+        font-weight:100px;
+        cursor: pointer;
+        font-family: 'Courier New', Courier,'Times New Roman', Times, serif;
+    }
+     button[class="social facebook"]{
+         padding:15px;
+         border-radius:8px;
+         position: relative;
+        transition:2s ease-in-out;
+        box-sizing:border-box;
+       padding: 10px;
+       margin:auto;
+     }
+     .twitter{
+        background-color:rgb(35, 41, 99);
+        border:none;
+        width: 300px;
+        height: 50px;
+        color:white;
+        font-size: 20px;
+        font-weight:100px;
+        cursor: pointer;
+        font-family: 'Courier New', Courier,'Times New Roman', Times, serif;
+    }
+    .google{
+        background-color: red;
+        border:none;
+        width: 300px;
+        height: 50px;
+        color:white;
+        font-size: 20px;
+        font-weight:100px;
+        cursor: pointer;
+        font-family: 'Courier New', Courier,'Times New Roman', Times, serif;
+    }
+    .heading{
+        color:gold;
+        box-sizing: border-box;
+        widows: 700px;
+        height: 120px;
+        background-color: midnightblue;
+        border-bottom: 5px black;
+    }
+    body{
+        background-image:url("kitchen.jpg");
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-size: cover; 
+        font-weight:15px;   
+    }
+    .SIGN-IN-WITH{
+        font-size: 30px;
+        font-weight: 200px;
+        font-family:'Times New Roman', Times, serif;
+        color: blue;
+        border-bottom:5px solid red;
+    }
+    .login-box{
+position:relative;
+margin:5% auto;
+height:550px;
+width:500px;
+background:none;
+box-shadow:5px 9px 13px black;
+box-sizing: border-box;
+top:20px;
+left:-200px;
+background-image:url("hacker.jpg");
+       background-attachment:fixed;
+       background-position:center;
+       background-size:cover;
+border-radius:10px;
+
+
+    }
+input[type="text"],input[type="password"],input[type="email"]{
+    background-color: none;
+    color:black;
+    padding: 15px;
+    margin:10px;
+    font-size:20px;
+    font-weight:10px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    outline: blue;
+    border: none;
+    box-sizing: border-box;
+   border-bottom:5px solid red;
+   font-weight: 400px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   width:350px;
+   height:75px;
+   display: -webkit-box;
+   margin-bottom: 20px;
+   outline:none;
+cursor: pointer;
+
+
+}
+input[type="submit"],input[type="reset"]{
+    background-color:red;
+    color:white;
+    font-weight: bolder;
+    padding: 15px;
+    margin:10px;
+    font-size:20px;
+    font-weight:10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    float:center;
+    border-radius:5px;
+    width: 200px;
+    outline-style: none;
+    margin:20px;
+   border:none;
+   font-weight: 500px;
+   cursor: pointer;
+   
+}
+
+
+</style> 

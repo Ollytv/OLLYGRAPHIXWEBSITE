@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet"href="css/loginTest.css">
+</head>
+<body> 
+    Welcome <?php echo $_POST["name"]; ?><br>
+Your email address is: <?php echo $_POST["email"]; ?>
+   <center>
+<div id="form_wrap">
+    <h2>SIGN-UP</h2>
+    <form name="form"method="POST"action=" "id="Loginform"onsubmit="validateForm();">
+    <input type="text"name="username"placeholder="Username"id="username"required><br/><br/>
+        <input type="email"name="email"placeholder="Email"id="Email"required><br/><br/>
+        <input type="password"name="password"placeholder="Password"required><br/><br/>
+        <button class="btn"type='submit'onsubmit="validateForm();">SUBMIT</button><br/><br/>
+<div class="p_tags">
+        <a href="#"><p class="log">Register</p></a> 
+<a href="#"><p class="forgot">Forgot Password?</p></a>
+</div>
+        </form>
+    </div>
+
+        </center>
+
+</body>
+</html>
